@@ -1,0 +1,240 @@
+body
+{
+    
+    
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+
+    font-size: 16px;
+
+}
+
+/* start edit on scroll */
+.nicescroll-cursors
+{
+    background-color: #ee9bac;
+}
+/* end edit on scroll */
+/* start login form */
+.login
+{
+    width: 300px;
+    margin: 250px auto 0px;
+}
+
+.login .form-control
+{
+    margin-bottom: 15px;
+}
+/* end login form */
+
+/* start dashboard page */
+.home-stats .stat
+{
+    background-color: #eee;
+    border: 1px solid #CCC;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+.home-stats .stat a 
+{
+    color: white;
+    text-decoration: none;
+}
+.home-stats .stat span
+{
+    display: block;
+    font-size: 50px;
+}
+.home-stats .st-members
+{
+    /* background-color:#3498db ; */
+    background-image: url("../images/image02.jpg");
+}
+.home-stats .st-pending
+{
+    background-color: #c0392b;
+}
+.home-stats .st-items
+{
+    background-color: #d35400;
+}
+.home-stats .st-comments
+{
+    background-color: #2C3539;
+}
+.latest
+{
+    margin-top:30px;
+
+
+}
+/* edit on register users */
+.lii
+{
+    padding: 3px 0px;
+    overflow: hidden;
+
+}
+/* end dashboard page */ 
+
+
+/* start Navbar */
+.bg-my
+{
+    background-color: #ee9bac;
+}
+
+.dropdown-menu
+{
+    
+    right: -15px;
+    left: -70px;
+    margin: 0.5rem 0 0;
+}
+.dropdown-item:hover,
+.dropdown-item:focus
+{
+    background-color: #ee9bac;
+}
+/* end Navbar
+
+/* start member page */
+.ahmed
+{
+    margin:40px 0px;
+    font-weight: bold;
+    color:#666;
+}
+.activate
+{
+    margin-left: 5px;
+}
+/*end member page */
+
+/* start edit on table */
+.table-bordered
+{
+    box-shadow: 0 3px 10px #CCC;
+}
+
+.table tr:first-child td
+{
+    background-color: #333;
+    color: white;
+}
+
+.faa
+{
+    position: relative;
+    right: 5px;
+    
+}
+/* end edit on table */
+
+
+/* start Categories Page */
+.categories .card-body
+{
+    padding : 0;
+}
+.Add-category
+{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.categories .cat:hover
+{
+    background-color: #eee;
+}
+.categories .ordering a
+{
+    color: #777;
+    text-decoration: none;
+
+}
+.categories .ordering .active
+{
+    color: red;
+}
+.categories .cat
+{
+    padding :15px;
+    position: relative;
+    overflow: hidden;
+}
+.categories .cat:hover .hidden-button
+{
+    right: 10px;
+}
+.categories .cat .hidden-button
+{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top :15px;
+    right: -180px;
+}
+.categories .cat .hidden-button a
+{
+    margin-right: 5px;
+}
+.categories hr
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.categories .cat h3
+{
+    margin : 0 ; 
+    cursor: pointer;
+}
+.categories .cat p
+{
+    margin : 10px 0;
+}
+.categories .cat p,.categories .cat span
+{
+    font-size: 1rem;
+}
+.categories .cat:last-of-type ~ hr
+{
+    display: none;
+}
+.categories .cat .visibility,.allow-comment,.advertises
+{
+    background-color: #d35400;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.categories .cat .allow-comment
+{
+    background-color: #2c3e50;
+}
+.categories .cat .advertises
+{
+    background-color: #c0392b;
+}
+.cat .full-view
+{
+    display: none;
+}
+/* end Categories Page */
+
+/* start item page */
+.manage-image-item img
+{
+    width: 50px;
+    height: 50px;
+}
+/* end iten page */
+

@@ -1,0 +1,246 @@
+body
+{
+    
+    
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+
+    font-size: 16px;
+
+}
+h1{
+    
+    
+    color: #666;
+}
+
+/* start edit on scroll */
+.nicescroll-cursors
+{
+    background-color: #ee9bac;
+}
+/* end edit on scroll */
+
+/* start Navbar */
+.faa
+{
+    margin-left: 5px;
+}
+.bg-my
+{
+    background-color: #ee9bac;
+}
+
+.dropdown-menu
+{
+    
+    right: -15px;
+    left: -70px;
+    margin: 0.5rem 0 0;
+}
+.dropdown-item:hover,
+.dropdown-item:focus
+{
+    background-color: #ee9bac;
+}
+/* end Navbar */
+
+/* start upper bar */
+.upper-bar
+{
+    display: flex;
+    padding: 10px;
+    background-color: #EEE;
+}
+/* end upper bar */
+
+/* start category page */
+
+.item-box
+{
+    position: relative;
+
+}
+.makeup-bg
+{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.c-category-cover__title {
+    color: #000;
+    font: 500 2rem/1.25 Didot,serif;
+    margin: 0 0 .3125rem;
+    text-transform: uppercase;
+}
+@media (max-width: 767.99px) {
+.hidden1-xs {
+    display: none !important;
+}
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+.hidden1-sm {
+    display: none !important;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.99px) {
+.hidden1-md {
+    display: none !important;
+}
+}
+@media (min-width: 1200px) {
+.hidden1-lg {
+    display: none !important;
+}
+}
+
+/* end category page */
+
+/* start login-page */
+.bg-login
+{
+    background-image: url('../images/login-images/image01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+
+
+.container1{
+    height: 100%;
+    align-content: center;
+    }
+    
+.card1{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon1 span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon1 span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header1 h3{
+color: white;
+}
+
+.social_icon1{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend1 span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+.in1
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+    /* -ms-flex: 1 1 auto; */
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    margin-bottom: 0;
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    display: block;
+    /* width: 100%; */
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.in1:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember1{
+color: white;
+}
+
+.remember1 input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn1{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn1:hover{
+color: black;
+background-color: white;
+}
+
+.links1{
+color: white;
+}
+
+.links1 a{
+margin-left: 4px;
+}
+
+.login-margin1
+{
+    margin-top: 85px;
+}
+
+.sign-r
+{
+    height: 425px;
+}
+
+/* end login-page */
+/* start register page */
+.links1-r
+{
+    color: red;
+}
+/* end register page */
+
+/* start index page */
+.bg-footer
+{
+    background-color: #ee9bac;
+}
+.order-button
+{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+/* end index page */
